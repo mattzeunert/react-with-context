@@ -1,5 +1,5 @@
 jest.dontMock("../ExampleComponent");
-jest.dontMock("../WithContext.dist")
+jest.dontMock("../WithContext.dist");
 
 import React from "react"
 import ReactDOM from "react-dom"
