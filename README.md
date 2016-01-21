@@ -19,6 +19,8 @@ Or, including import and rendering with TestUtils:
     	<ExampleComponent />
 	</WithContext>);
 
+[Check out the full example repo.](https://github.com/mattzeunert/react-with-context-demo)
+
 ## Installation
 
 > npm install react-with-context --save-dev

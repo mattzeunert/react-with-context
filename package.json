@@ -1,6 +1,6 @@
 {
   "name": "react-with-context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pass context into React components and replace for React.withContext",
   "main": "WithContext.dist.js",
   "scripts": {
