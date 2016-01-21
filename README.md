@@ -27,4 +27,4 @@ Or, including import and rendering with TestUtils:
 
 ## Contributing
 
-Use `babel --out-file WithContext.dist.js src/WithContext.js` to compile the component.
+Use `babel --out-file WithContext.dist.js src/WithContext.js` to compile the component. Then run `npm test`.
