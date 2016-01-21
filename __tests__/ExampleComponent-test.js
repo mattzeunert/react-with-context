@@ -1,11 +1,11 @@
 jest.dontMock("../ExampleComponent");
-jest.dontMock("../WithContext")
+jest.dontMock("../WithContext.dist")
 
 import React from "react"
 import ReactDOM from "react-dom"
 import TestUtils from "react-addons-test-utils"
 
-const WithContext = require("../WithContext").default;
+const WithContext = require("../WithContext.dist").default;
 const ExampleComponent = require("../ExampleComponent").default;
 
 describe("ExampleComponent", function(){

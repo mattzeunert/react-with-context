@@ -1,11 +1,18 @@
 {
   "name": "react-with-context",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Pass context into React components and replace for React.withContext",
+  "main": "WithContext.dist.js",
   "scripts": {
     "test": "jest"
   },
+  "keywords": [
+    "unit-testing",
+    "react",
+    "react-context",
+    "jest",
+    "karma"
+  ],
   "dependencies": {
     "react": "~0.14.0",
     "react-dom": "~0.14.0"
