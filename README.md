@@ -21,7 +21,7 @@ Or, including import and rendering with TestUtils:
 
 ## Installation
 
-> npm install react-with-context --save-dev`
+> npm install react-with-context --save-dev
 
 ## Contributing
 
