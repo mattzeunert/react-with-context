@@ -1,0 +1,59 @@
+{
+    /////////////////////////////////////////////////////////////////////////////////
+    ///                                                                           ///
+    ///   Because, yes, I (totally) did (not) have to explicitly set every prop   ///
+    ///                                                                           ///
+    /////////////////////////////////////////////////////////////////////////////////
+    "compilerOptions": {
+        // module resolution
+        "target": "es2015",
+        "module": "es2015",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "moduleResolution": "node",
+        // `.d.ts` and `.map` generation
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "declaration": false,
+        ////////////////////////////////////////
+        /// A note about JSX
+        ////////////////////////////////////////
+        ///
+        /// @see http://blog.tomduncalf.com/posts/setting-up-typescript-and-react/#setting-up-tsconfig-json
+        /// Previously		"jsx": "react"
+        /// NoW		"jsx": "preserve"
+        ///
+        "jsx": "preserve",
+        //"allowSyntheticDefaultImports": true,
+        "preserveConstEnums": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        // type checker configurations
+        "noUnusedLocals": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "allowUnreachableCode": false,
+        "noImplicitUseStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "suppressExcessPropertyErrors": false,
+        "allowSyntheticDefaultImports": false,
+        // cosmetic
+        "pretty": true,
+        "newLine": "LF",
+        "locale": "en-us",
+        "charset": "utf-8",
+        "removeComments": false, // otherwise, why'd you type them in the first place?!
+        "forceConsistentCasingInFileNames": false, // hell no, I'm a big boy.
+        "rootDir": "./src"
+    },
+    "exclude": [
+        "./bin",
+        "./node_modules"
+    ],
+    "typeAcquisition": {
+        "enable": true
+    }
+}
