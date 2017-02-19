@@ -1,6 +1,6 @@
 {
-  "name": "react-with-context",
-  "version": "1.0.4",
+  "name": "react-wrap-with-context",
+  "version": "1.0.7",
   "description": "Pass context into React components and replace for React.withContext",
   "main": "bin/WithContext.js",
   "types": "WithContext.d.ts",
@@ -9,6 +9,11 @@
     "build": "babel src -d bin",
     "prepublish": "npm build && npm test"
   },
+  "files": [
+    "WithContext.d.ts",
+    "src/ExampleComponent.js",
+    "src/WithContext.js"
+  ],
   "keywords": [
     "unit-testing",
     "react",

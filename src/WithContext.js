@@ -12,23 +12,25 @@ export default class WithContext extends React.Component {
         }
 
         DynamicWithContext.childContextTypes = {};
-        var context = this.props.context;
-        for (var propertyName in context) {
+        const context = this.props.context;
+        for (const propertyName in context) {
             DynamicWithContext.childContextTypes[propertyName] = React.PropTypes.any;
         }
 
         this.validateChildren();
 
-        return <DynamicWithContext context={this.props.context}>
-            {this.props.children}
-        </DynamicWithContext>
+        return (
+            <DynamicWithContext context={this.props.context}>
+                {this.props.children}
+            </DynamicWithContext>
+        );
     }
     validateChildren(){
         if (this.props.children === undefined) {
-            throw "No child components were passed into WithContext";
+            throw new TypeError("No child components were passed into WithContext");
         }
         if (this.props.children.length > 1) {
-            throw "You can only pass one child component into WithContext";
+            throw new TypeError("You can only pass one child component into WithContext"_;
         }
     }
 }
