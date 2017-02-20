@@ -20,6 +20,13 @@
     "jest",
     "karma"
   ],
+  "contributors": [
+    {
+      "name": "rozzzly",
+      "url": "https://github.com/rozzzly",
+      "email": "pclienau@gmail.com"
+    }
+  ],
   "dependencies": {
     "@types/react": "^15.0.11",
     "react": "^15.4.2"
