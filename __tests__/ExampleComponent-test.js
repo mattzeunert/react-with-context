@@ -1,12 +1,12 @@
-jest.dontMock("../bin/ExampleComponent");
-jest.dontMock("../bin/WithContext");
+jest.dontMock("../src/ExampleComponent");
+jest.dontMock("../src/WithContext");
 
 import * as React from "react"
 import * as ReactDOM from "react-dom"
 import * as TestUtils from "react-addons-test-utils"
 
-const WithContext = require("../bin/WithContext").default;
-const ExampleComponent = require("../bin/ExampleComponent").default;
+const WithContext = require("../src/WithContext").default;
+const ExampleComponent = require("../src/ExampleComponent").default;
 
 describe("ExampleComponent", function(){
     it("Takes the greeting from the component context", function(){

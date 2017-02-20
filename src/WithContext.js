@@ -30,7 +30,7 @@ export default class WithContext extends React.Component {
             throw new TypeError("No child components were passed into WithContext");
         }
         if (this.props.children.length > 1) {
-            throw new TypeError("You can only pass one child component into WithContext"_;
+            throw new TypeError("You can only pass one child component into WithContext");
         }
     }
 }
