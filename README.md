@@ -6,18 +6,24 @@ You can use it to replace `React.withContext`, which was removed in React 0.14.
 
 ## Usage
 
-	<WithContext context={context}>
-    	<ExampleComponent />
-	</WithContext>
+```jsx
+<WithContext context={context}>
+   <ExampleComponent />
+</WithContext>
+```
 
 Or, including import and rendering with TestUtils:
 
-	import WithContext from "react-with-context"
+```jsx
+import WithContext from "react-with-context"
 
-	var context= {greeting: "Hello"};
-	TestUtils.renderIntoComponent(<WithContext context={context}>
+const context = { greeting: "Hello" };
+TestUtils.renderIntoComponent(
+	<WithContext context={context}>
     	<ExampleComponent />
-	</WithContext>);
+	</WithContext>
+);
+```
 
 [Check out the full example repo.](https://github.com/mattzeunert/react-with-context-demo)
 

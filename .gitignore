@@ -1,2 +1,4 @@
 node_modules
 WithContext.dist.js
+npm-debug.log
+bin
