@@ -1,6 +1,6 @@
 {
   "name": "react-wrap-with-context",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Pass context into React components and replace for React.withContext",
   "main": "bin/WithContext.js",
   "types": "WithContext.d.ts",
