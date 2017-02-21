@@ -1,13 +1,13 @@
 {
   "name": "react-with-context",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Pass context into React components and replace for React.withContext",
   "main": "bin/WithContext.js",
   "types": "WithContext.d.ts",
   "scripts": {
     "test": "jest",
     "build": "babel src -d bin",
-    "prepublish": "npm build && npm test"
+    "prepublish": "npm run build && npm run test"
   },
   "files": [
     "WithContext.d.ts",
