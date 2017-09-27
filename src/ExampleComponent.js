@@ -1,4 +1,5 @@
-import * as React from 'react'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 class ExampleComponent extends React.Component {
     render(){
@@ -8,7 +9,7 @@ class ExampleComponent extends React.Component {
     }
 }
 ExampleComponent.contextTypes = {
-    greeting: React.PropTypes.string.isRequired
+    greeting: PropTypes.string.isRequired
 }
 
 export default ExampleComponent;
